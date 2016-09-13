@@ -7,9 +7,5 @@ setup(
     install_requires=[
         'Click',
         'openbabel',
-    ],
-    entry_points='''
-        [console_scripts]
-        pybel-orca=pybel-orca:cli
-    ''',
+    ]
 )
